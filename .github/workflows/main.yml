@@ -28,7 +28,7 @@ jobs:
         run: npm install
 
       - name: build
-        run: echo "GITHUB_PAGES=1" > .env.local; npx vue-cli-service build
+        run: echo "VUE_APP_GITHUB_PAGES=1" > .env.local; npx vue-cli-service build
 
       - name: move to docs
         run: rm -rf docs && mv dist docs
