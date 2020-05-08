@@ -8,7 +8,7 @@ The web client is made with Node in Vue.js. If you wish to run it, you have the 
 
 ### Node
 
-Type `npm install` and `npx vue-cli-service build`. You then have a `dist/` folder you can distribute via a HTTP server. For the convenience, a dev package is also given with the packages. Run it with `npx dist/ -p 8080 --proxy "http://localhost:8080?"` (by adapting the two ports if necessary). You'll need to have the server running, either via Docker or natively.
+Type `npm install` and `npx vue-cli-service build`. You then have a `dist/` folder you can distribute via a HTTP server. For the convenience, a dev package is also given with the packages. Run it with `npx http-server dist/ -p 8080 --proxy "http://localhost:8080?"` (by adapting the two ports if necessary). You'll need to have the server running, either via Docker or natively.
 
 ### Docker
 

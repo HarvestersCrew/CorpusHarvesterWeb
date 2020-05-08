@@ -30,7 +30,18 @@ jobs:
         run: npm install
 
       - name: build
-        run: npx vue-cli-service build
+        run: echo "GITHUB_PAGES=1" > .env.local; npx vue-cli-service build
 
       - name: move to docs
-        run: mv dist docs
+        run: rm -rf docs && mv dist docs
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Built static page" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
