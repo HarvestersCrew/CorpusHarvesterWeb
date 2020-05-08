@@ -13,3 +13,7 @@ Type `npm install` and `npx vue-cli-service build`. You then have a `dist/` fold
 ### Docker
 
 A Dockerfile is provided which can build an image with a server to serve the web client. Simply run `docker build -t IMAGE_NAME .` then `docker run -d -p 8080:8080 --name CONTAINER_NAME IMAGE_NAME`. It starts the container in detached mode so it works in background. You can reach the web client on [localhost:8080](http://localhost:8080). Run `docker kill CONTAINER_NAME` to end it.
+
+### Github Pages
+
+If you have server running, you can use the page hosted [here](https://harvesterscrew.github.io/CorpusHarvesterWeb/). It is updated with each repo update.

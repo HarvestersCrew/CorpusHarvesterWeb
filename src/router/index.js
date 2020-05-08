@@ -55,7 +55,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: "history",
+  mode: process.env.GITHUB_PAGES ? "hash" : "history",
   base: process.env.BASE_URL,
   routes
 });
