@@ -40,8 +40,8 @@
                   href="https://github.com/HarvestersCrew/CorpusHarvester/pulls"
                   >pull requests</a
                 >.<br />
-                Anyone is also free to use this program however it suits him /
-                her, provided they respect the given license above.
+                Anyone is also free to use this program however it suits them,
+                provided they respect the given license above.
               </div>
               <div class="my-4">
                 Thanks for using the Corpus Harvester!
