@@ -15,31 +15,38 @@
             <v-card-text>
               <div class="mb-4">
                 This tool was made with love by a team of seven students from a
-                french CS engineering school as a class project.<br />
+                french CS engineering school as a class project.
+              </div>
+              <div class="my-4">
                 It is available on
-                <a href="https://github.com/HarvestersCrew/CorpusHarvester"
+                <a href="https://github.com/HarvestersCrew" target="_blank"
                   >Github</a
                 >
                 and is licensed under the
                 <a
                   href="https://github.com/HarvestersCrew/CorpusHarvester/blob/master/LICENSE"
+                  target="_blank"
                   >GNU GPL v3.0</a
                 >
-                license.
+                license. It is divided in two projects:
+                <a
+                  href="https://github.com/HarvestersCrew/CorpusHarvester"
+                  target="_blank"
+                  >the engine</a
+                >
+                which does the heavy-lifting, and the
+                <a
+                  href="https://github.com/HarvestersCrew/CorpusHarvesterWeb"
+                  target="_blank"
+                  >web client</a
+                >
+                which you are currently using.
               </div>
               <div class="my-4">
                 Any person wishing to help develop this project is welcomed. It
-                is as simple as referencing
-                <a
-                  href="https://github.com/HarvestersCrew/CorpusHarvester/issues"
-                  >new issues</a
-                >
-                as you encounter them, or fixing those issues or adding new
-                complex feature and making
-                <a
-                  href="https://github.com/HarvestersCrew/CorpusHarvester/pulls"
-                  >pull requests</a
-                >.<br />
+                is as simple as referencing new issues as you encounter them, or
+                fixing those issues or adding new complex feature and making
+                pull requests.<br />
                 Anyone is also free to use this program however it suits them,
                 provided they respect the given license above.
               </div>
@@ -56,7 +63,7 @@
                 dark
                 target="_blank"
                 color="blue"
-                href="https://github.com/HarvestersCrew/CorpusHarvester"
+                href="https://github.com/HarvestersCrew"
               >
                 Github
                 <v-icon right>mdi-github</v-icon>
