@@ -1,24 +1,3 @@
-# web
+# CorpusHarvesterWeb
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This is the web client of the [Corpus Harvester](https://github.com/HarvestersCrew/CorpusHarvester). Instruction on how to use it are available on the main repo.
