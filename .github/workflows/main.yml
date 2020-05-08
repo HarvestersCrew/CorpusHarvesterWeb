@@ -39,7 +39,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Built static page" -a
+          git add . && git commit -m "Built static page"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
